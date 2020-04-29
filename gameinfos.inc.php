@@ -13,25 +13,26 @@
 $gameinfos = array( 
 
 // Name of the game in English (will serve as the basis for translation) 
-'game_name' => "My Great Game",
+'game_name' => "First Class: All Aboard the Orient Express!",
 
 // Game designer (or game designers, separated by commas)
-'designer' => 'John Doe',       
+'designer' => '
+Helmut Ohley',       
 
 // Game artist (or game artists, separated by commas)
-'artist' => 'Jane Doe',         
+'artist' => 'Michael Menzel',         
 
 // Year of FIRST publication of this game. Can be negative.
-'year' => 2000,                 
+'year' => 2016,                 
 
 // Game publisher
-'publisher' => 'My Publishing Company',                     
+'publisher' => 'Hans im Glück',                     
 
 // Url of game publisher website
-'publisher_website' => 'http://www.mypublishingcompany.com/',   
+'publisher_website' => 'http://www.hans-im-glueck.de/',   
 
 // Board Game Geek ID of the publisher
-'publisher_bgg_id' => 1234,
+'publisher_bgg_id' => 133,
 
 // Board game geek ID of the game
 'bgg_id' => 206941,
@@ -49,16 +50,16 @@ $gameinfos = array(
 
 
 // Estimated game duration, in minutes (used only for the launch, afterward the real duration is computed)
-'estimated_duration' => 30,           
+'estimated_duration' => 60,           
 
 // Time in second add to a player when "giveExtraTime" is called (speed profile = fast)
-'fast_additional_time' => 30,           
+'fast_additional_time' => 120,           
 
 // Time in second add to a player when "giveExtraTime" is called (speed profile = medium)
-'medium_additional_time' => 40,           
+'medium_additional_time' => 240,           
 
 // Time in second add to a player when "giveExtraTime" is called (speed profile = slow)
-'slow_additional_time' => 50,           
+'slow_additional_time' => 360,           
 
 // If you are using a tie breaker in your game (using "player_score_aux"), you must describe here
 // the formula used to compute "player_score_aux". This description will be used as a tooltip to explain
@@ -80,7 +81,7 @@ $gameinfos = array(
 
 
 // Complexity of the game, from 0 (extremely simple) to 5 (extremely complex)
-'complexity' => 3,    
+'complexity' => 2.7768,    
 
 // Luck of the game, from 0 (absolutely no luck in this game) to 5 (totally luck driven)
 'luck' => 3,    
@@ -92,7 +93,7 @@ $gameinfos = array(
 'diplomacy' => 3,    
 
 // Colors attributed to players
-'player_colors' => array( "ff0000", "008000", "0000ff", "ffa500", "773300" ),
+'player_colors' => array( "ff0000", "008000", "0000ff", "ffa500"),
 
 // Favorite colors support : if set to "true", support attribution of favorite colors based on player's preferences (see reattributeColorsBasedOnPreferences PHP method)
 'favorite_colors_support' => true,
@@ -135,7 +136,7 @@ $gameinfos = array(
 //  http://en.doc.boardgamearena.com/Game_meta-information:_gameinfos.inc.php
 //  IMPORTANT: this list should be ORDERED, with the most important tag first.
 //  IMPORTANT: it is mandatory that the FIRST tag is 1, 2, 3 and 4 (= game category)
-'tags' => array( 2 ),
+'tags' => array( 3, 200, 12 ),
 
 
 //////// BGA SANDBOX ONLY PARAMETERS (DO NOT MODIFY)
